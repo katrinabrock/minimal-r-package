@@ -1,2 +1,5 @@
 Package: temp
-Version: .9
+Version: 0.9
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
