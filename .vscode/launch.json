@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "R-Debugger",
+			"request": "launch",
+			"name": "Debug R-File - with package",
+			"debugMode": "file",
+			"workingDirectory": "${workspaceFolder}",
+			"file": "example.R",
+			"allowGlobalDebugging": true,
+			"loadPackages": [ "." ]
+		}
+	]
+}
