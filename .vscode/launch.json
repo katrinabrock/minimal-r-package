@@ -10,6 +10,17 @@
 			"file": "example.R",
 			"allowGlobalDebugging": true,
 			"loadPackages": [ "." ]
+		},
+		{
+			"type": "R-Debugger",
+			"request": "launch",
+			"name": "Debug testthat test",
+			"debugMode": "file",
+			"workingDirectory": "${workspaceFolder}",
+			"file": "example2.R",
+			"allowGlobalDebugging": true,
+			"loadPackages": [ "." ],
+			"debuggedPackages": [ "temp" ]
 		}
 	]
 }
