@@ -1,1 +1,5 @@
+env <- loadNamespace('pkgload')
+unlockBinding('load_all', env)
+env$load_all <- function(...) cat('Ignoring pkgload::load_all!\n')
+lockBinding('load_all', env)
 devtools::test(filter='output')

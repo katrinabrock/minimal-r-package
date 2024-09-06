@@ -19,8 +19,7 @@
 			"workingDirectory": "${workspaceFolder}",
 			"file": "example2.R",
 			"allowGlobalDebugging": true,
-			"loadPackages": [ "." ],
-			"debuggedPackages": [ "temp" ]
+			"loadPackages": [ "." ]
 		},
 		{
 			"type": "R-Debugger",
