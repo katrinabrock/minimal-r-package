@@ -21,6 +21,18 @@
 			"allowGlobalDebugging": true,
 			"loadPackages": [ "." ],
 			"debuggedPackages": [ "temp" ]
-		}
+		},
+		{
+			"type": "R-Debugger",
+			"request": "launch",
+			"name": "Demo splitOverwrittenOutput",
+			"debugMode": "file",
+			"workingDirectory": "${workspaceFolder}",
+			"file": "example3.R",
+			"allowGlobalDebugging": true,
+			"loadPackages": [ "." ],
+			"splitOverwrittenOutput": true,
+			"debuggedPackages": [ "temp" ]
+		}		
 	]
 }
