@@ -32,6 +32,17 @@
 			"loadPackages": [ "." ],
 			"splitOverwrittenOutput": true,
 			"debuggedPackages": [ "temp" ]
-		}		
+		},		
+		{
+			"type": "R-Debugger",
+			"request": "launch",
+			"name": "Demo eval",
+			"debugMode": "file",
+			"workingDirectory": "${workspaceFolder}",
+			"file": "example6.R",
+			"allowGlobalDebugging": true,
+			"loadPackages": [ "." ],
+			"splitOverwrittenOutput": true,
+		},		
 	]
 }
