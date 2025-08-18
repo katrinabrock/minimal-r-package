@@ -1,0 +1,11 @@
+Package: myinnerpkg
+Type: Package
+Title: example package in same repo as another package
+Version: 1.0
+Date: 2025-08-18
+Authors@R: person("", "Brock", role = c("aut", "cre"), email = "kbrock@ab.mpg.de")
+Description: More about what it does (maybe more than one line).
+License: GPL (>= 2)
+Suggests: tinytest
+Encoding: UTF-8
+RoxygenNote: 7.3.2
