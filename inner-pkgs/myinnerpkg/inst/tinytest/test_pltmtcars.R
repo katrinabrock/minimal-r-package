@@ -1,0 +1,1 @@
+tinysnapshot::expect_snapshot_plot(plot_mtcars, "plot_mtcars")

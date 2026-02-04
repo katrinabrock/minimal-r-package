@@ -1,0 +1,1 @@
+run_function <- function (fn) fn()
