@@ -1,1 +1,1 @@
-tinytest::expect_null(functionrunner::run_function(plot_mtcars2))
+expect_null(functionrunner::run_function(plot_mtcars2))

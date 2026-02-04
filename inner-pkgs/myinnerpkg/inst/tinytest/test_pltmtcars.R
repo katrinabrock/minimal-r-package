@@ -1,1 +1,4 @@
-tinysnapshot::expect_snapshot_plot(plot_mtcars, "plot_mtcars")
+library(tinytest)
+using("tinysnapshot")
+
+expect_snapshot_plot(plot_mtcars, "plot_mtcars")
