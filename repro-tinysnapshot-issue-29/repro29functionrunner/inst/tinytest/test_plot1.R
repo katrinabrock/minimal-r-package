@@ -1,0 +1,1 @@
+expect_null(functionrunner::run_function(plot1))

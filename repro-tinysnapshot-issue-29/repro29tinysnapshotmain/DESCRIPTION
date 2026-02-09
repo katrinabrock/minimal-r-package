@@ -1,0 +1,11 @@
+Package: repro29tinysnapshotmain
+Type: Package
+Title: Reproduce tinysnapshot#29
+Version: 1.0
+Date: 2025-08-18
+Authors@R: person("", "Brock", role = c("aut", "cre"), email = "kbrock@ab.mpg.de")
+Description: Reproduce vincentarelbundock/tinysnapshot#29.
+License: GPL (>= 2)
+Suggests: tinytest, tinysnapshot, rsvg
+Encoding: UTF-8
+RoxygenNote: 7.3.3
